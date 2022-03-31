@@ -283,12 +283,3 @@ FROM bitnami/symfony:6.0.5-debian-10-r1
 
 # Tags: 5.4.5-debian-10-r1
 FROM bitnami/symfony:5.4.5-debian-10-r1
-
-# Tags: 6.0.5-debian-10-r0
-FROM bitnami/symfony:6.0.5-debian-10-r0
-
-# Tags: 5.4.5-debian-10-r0
-FROM bitnami/symfony:5.4.5-debian-10-r0
-
-# Tags: 4.4.38-debian-10-r0
-FROM bitnami/symfony:4.4.38-debian-10-r0
