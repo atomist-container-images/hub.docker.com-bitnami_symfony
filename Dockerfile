@@ -1,24 +1,63 @@
-# Tags: latest, 6.0.6-debian-10-r24, 6.0.6, 6.0-debian-10, 6.0
+# Tags: latest, 6.0.7-debian-10-r1, 6.0.7, 6.0-debian-10, 6.0
 FROM bitnami/symfony:latest
-FROM bitnami/symfony:6.0.6-debian-10-r24
-FROM bitnami/symfony:6.0.6
+FROM bitnami/symfony:6.0.7-debian-10-r1
+FROM bitnami/symfony:6.0.7
 FROM bitnami/symfony:6.0-debian-10
 FROM bitnami/symfony:6.0
+
+# Tags: 4.4.40-debian-10-r1, 4.4.40, 4.4-debian-10, 4.4
+FROM bitnami/symfony:4.4.40-debian-10-r1
+FROM bitnami/symfony:4.4.40
+FROM bitnami/symfony:4.4-debian-10
+FROM bitnami/symfony:4.4
 
 # Tags: _
 FROM bitnami/symfony:_
 
-# Tags: 5.4.6-debian-10-r25, 5.4.6, 5.4-debian-10, 5.4
-FROM bitnami/symfony:5.4.6-debian-10-r25
-FROM bitnami/symfony:5.4.6
+# Tags: 5.4.7-debian-10-r1, 5.4.7, 5.4-debian-10, 5.4
+FROM bitnami/symfony:5.4.7-debian-10-r1
+FROM bitnami/symfony:5.4.7
 FROM bitnami/symfony:5.4-debian-10
 FROM bitnami/symfony:5.4
 
-# Tags: 4.4.39-debian-10-r24, 4.4.39, 4.4-debian-10, 4.4
-FROM bitnami/symfony:4.4.39-debian-10-r24
+# Tags: 4.4.40-debian-10-r0
+FROM bitnami/symfony:4.4.40-debian-10-r0
+
+# Tags: 5.4.7-debian-10-r0
+FROM bitnami/symfony:5.4.7-debian-10-r0
+
+# Tags: 6.0.7-debian-10-r0
+FROM bitnami/symfony:6.0.7-debian-10-r0
+
+# Tags: 6.0.6-debian-10-r26, 6.0.6
+FROM bitnami/symfony:6.0.6-debian-10-r26
+FROM bitnami/symfony:6.0.6
+
+# Tags: 5.4.6-debian-10-r27, 5.4.6
+FROM bitnami/symfony:5.4.6-debian-10-r27
+FROM bitnami/symfony:5.4.6
+
+# Tags: 4.4.39-debian-10-r26, 4.4.39
+FROM bitnami/symfony:4.4.39-debian-10-r26
 FROM bitnami/symfony:4.4.39
-FROM bitnami/symfony:4.4-debian-10
-FROM bitnami/symfony:4.4
+
+# Tags: 6.0.6-debian-10-r25
+FROM bitnami/symfony:6.0.6-debian-10-r25
+
+# Tags: 5.4.6-debian-10-r26
+FROM bitnami/symfony:5.4.6-debian-10-r26
+
+# Tags: 4.4.39-debian-10-r25
+FROM bitnami/symfony:4.4.39-debian-10-r25
+
+# Tags: 6.0.6-debian-10-r24
+FROM bitnami/symfony:6.0.6-debian-10-r24
+
+# Tags: 5.4.6-debian-10-r25
+FROM bitnami/symfony:5.4.6-debian-10-r25
+
+# Tags: 4.4.39-debian-10-r24
+FROM bitnami/symfony:4.4.39-debian-10-r24
 
 # Tags: 6.0.6-debian-10-r23
 FROM bitnami/symfony:6.0.6-debian-10-r23
@@ -235,51 +274,3 @@ FROM bitnami/symfony:6.0.6-debian-10-r0
 
 # Tags: 5.4.6-debian-10-r0
 FROM bitnami/symfony:5.4.6-debian-10-r0
-
-# Tags: 4.4.38-debian-10-r5, 4.4.38
-FROM bitnami/symfony:4.4.38-debian-10-r5
-FROM bitnami/symfony:4.4.38
-
-# Tags: 6.0.5-debian-10-r5, 6.0.5
-FROM bitnami/symfony:6.0.5-debian-10-r5
-FROM bitnami/symfony:6.0.5
-
-# Tags: 5.4.5-debian-10-r5, 5.4.5
-FROM bitnami/symfony:5.4.5-debian-10-r5
-FROM bitnami/symfony:5.4.5
-
-# Tags: 4.4.38-debian-10-r4
-FROM bitnami/symfony:4.4.38-debian-10-r4
-
-# Tags: 6.0.5-debian-10-r4
-FROM bitnami/symfony:6.0.5-debian-10-r4
-
-# Tags: 5.4.5-debian-10-r4
-FROM bitnami/symfony:5.4.5-debian-10-r4
-
-# Tags: 4.4.38-debian-10-r3
-FROM bitnami/symfony:4.4.38-debian-10-r3
-
-# Tags: 6.0.5-debian-10-r3
-FROM bitnami/symfony:6.0.5-debian-10-r3
-
-# Tags: 5.4.5-debian-10-r3
-FROM bitnami/symfony:5.4.5-debian-10-r3
-
-# Tags: 4.4.38-debian-10-r2
-FROM bitnami/symfony:4.4.38-debian-10-r2
-
-# Tags: 6.0.5-debian-10-r2
-FROM bitnami/symfony:6.0.5-debian-10-r2
-
-# Tags: 5.4.5-debian-10-r2
-FROM bitnami/symfony:5.4.5-debian-10-r2
-
-# Tags: 4.4.38-debian-10-r1
-FROM bitnami/symfony:4.4.38-debian-10-r1
-
-# Tags: 6.0.5-debian-10-r1
-FROM bitnami/symfony:6.0.5-debian-10-r1
-
-# Tags: 5.4.5-debian-10-r1
-FROM bitnami/symfony:5.4.5-debian-10-r1
